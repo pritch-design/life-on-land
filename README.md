@@ -2,55 +2,24 @@
 
 A responsive Welsh Baccalaureate project website about tackling litter in Newport and Cardiff.
 
-## Files
-- `index.html` — website content
-- `styles.css` — layout and design
+## Included
+- `index.html` — website content and linked research sources
+- `styles.css` — forest-green and sage-green design
 - `script.js` — mobile navigation
-- `images/` — put your photographs here
+- `assets/welsh-landscape.jpg` — AI-generated Welsh landscape illustration used in the hero banner
 
-## Publish with GitHub Pages
-1. Extract this ZIP file.
-2. Upload `index.html`, `styles.css`, `script.js` and the `images` folder directly into the root of your GitHub repository.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then press **Save**.
-6. Wait for the deployment to finish. Open the published Pages link.
+## Publish or replace your GitHub Pages website
+1. Download and extract this ZIP.
+2. In your GitHub repository, upload `index.html`, `styles.css`, `script.js` and the `welsh-landscape.jpg` image file to the repository root.
+3. If GitHub asks whether to replace existing files, confirm the upload/commit.
+4. Keep GitHub Pages set to **Deploy from a branch → main → /(root)**.
+5. Wait for the Pages deployment to finish, then refresh your website.
 
-## Add your own Newport and Cardiff photographs
-Create/use the `images` folder in the repository and upload four photographs with these exact filenames:
-- `newport-litter.jpg` — a litter-affected place in Newport
-- `cardiff-litter.jpg` — a litter-affected place in Cardiff
-- `newport-view.jpg` — a general photograph of Newport
-- `cardiff-view.jpg` — a general photograph of Cardiff
+## Research links
+The research cards and bibliography link to the source articles and reports. Check that each source remains accessible and that the details in your coursework match the original publication.
 
-Then open `index.html`, find the `gallery-grid` section, and replace each `<div class="photo-placeholder...">...</div>` with the corresponding image tag. For example, replace the Newport litter placeholder with:
+## Important coursework note
+The action plan and success criteria are plans, not claims that the practical work has already happened. Update them as the project develops. Add genuine activity records, photographs and results after beginning the practical work.
 
-```html
-<img class="gallery-photo" src="images/newport-litter.jpg" alt="Litter in a public area of Newport">
-```
 
-Do the same for the other three images, changing the filename and descriptive alt text. Add this CSS rule to the end of `styles.css`:
-
-```css
-.gallery-photo {
-  display: block;
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-```
-
-Save/commit the changes to GitHub. GitHub Pages will update automatically.
-
-## Photograph and source advice
-- Your own photographs are best evidence of local context and, later, your practical work. Only photograph from safe public places; do not include identifiable people without permission.
-- For general city photographs, you can use images from Wikimedia Commons or Unsplash. Check the licence and attribution requirements before using an image, and include a credit in the caption or bibliography.
-- Do not stage or imply that a photograph shows your own project activity if it does not. Label general/context images clearly.
-- Do not touch litter, needles, chemicals or unknown waste to take a photograph. Keep a safe distance.
-
-## Coursework note
-The planning sections are intentions, not claims that the practical work has already happened. Update the schedule and success measures to reflect what you actually do. Add genuine photographs, recorded results and evaluation after the project begins.
-
-## Name
-“Cymru Lân” is intended as “Clean Wales” / “A Clean Wales”.
+All five files belong directly in the repository root; no folders are needed.
